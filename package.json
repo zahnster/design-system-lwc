@@ -1,0 +1,24 @@
+{
+  "name": "design-system-lwc",
+  "version": "1.0.0-dev",
+  "description": "Currently a spike on developing authentic SLDS LWC components in Storybook",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run storybook",
+    "storybook": "start-storybook -s ./public -p 6006"
+  },
+  "keywords": [
+    "lightning design system",
+    "slds",
+    "web components"
+  ],
+  "author": "SLDS Framework Team",
+  "license": "ISC",
+  "devDependencies": {
+    "@lwc/compiler": "^1.1.1",
+    "@lwc/engine": "^1.1.1",
+    "@storybook/addon-storysource": "^5.1.11",
+    "@storybook/html": "^5.3.12",
+    "lwc-webpack-plugin": "^0.4.0"
+  }
+}
