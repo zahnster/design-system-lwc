@@ -17,7 +17,7 @@ module.exports = {
     config.module.rules = [
       {
         test: /\.stories\.js$/,
-        loaders: [require.resolve('@storybook/addon-storysource/loader')],
+        loaders: [require.resolve('@storybook/source-loader')],
         enforce: 'pre'
       },
       {
