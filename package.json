@@ -19,6 +19,9 @@
     "@lwc/engine": "^1.1.1",
     "@storybook/html": "^5.3.12",
     "@storybook/source-loader": "^5.3.12",
+    "gulp": "^4.0.2",
+    "gulp-header-comment": "^0.6.1",
+    "gulp-sass": "^4.0.2",
     "lwc-webpack-plugin": "^0.4.0"
   }
 }
