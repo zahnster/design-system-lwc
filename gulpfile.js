@@ -5,8 +5,17 @@ const headerComment = require('gulp-header-comment')
 gulp.task('sass', function(cb) {
   return gulp
     .src('ui/modules/**/*.scss')
-    .pipe(sass())
-    .pipe(headerComment('--- generated file ---'))
+    .pipe(
+      sass({
+        sourceComments: false,
+        outputStyle: 'compressed'
+      })
+    )
+    .pipe(
+      headerComment(
+        '© Salesforce.com. \n FILE IS AUTOMATICALLY GENERATED from .scss'
+      )
+    )
     .pipe(gulp.dest('ui/modules'))
 
   cb()
