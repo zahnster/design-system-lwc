@@ -17,8 +17,12 @@
   "devDependencies": {
     "@lwc/compiler": "^1.1.1",
     "@lwc/engine": "^1.1.1",
+    "@salesforce-ux/design-system-primitive-tokens": "0.0.8",
     "@storybook/html": "^5.3.12",
     "@storybook/source-loader": "^5.3.12",
+    "gulp": "^4.0.2",
+    "gulp-header-comment": "^0.6.1",
+    "gulp-sass": "^4.0.2",
     "lwc-webpack-plugin": "^0.4.0"
   }
 }
