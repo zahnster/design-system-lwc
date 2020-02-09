@@ -1,8 +1,7 @@
-@import '../../../node_modules/@salesforce-ux/design-system-primitive-tokens/dist/base.default.scss';
 
-.lwc-button {
-  -webkit-appearance: none;
-  background: $color-brand;
-  color: white;
-  border: 0;
-}
+// Copyright (c) 2015-present, salesforce.com, inc. All rights reserved
+// Licensed under BSD 3-Clause - see LICENSE.txt or git.io/sfdc-license
+
+// until we are ready to port, we use SLDS @ npm
+@import '../../../node_modules/@salesforce-ux/design-system/css/common/index';
+@import '../../../node_modules/@salesforce-ux/design-system/ui/modules/button/base/index';

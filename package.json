@@ -19,14 +19,21 @@
     "@lwc/compiler": "^1.2.2",
     "@lwc/engine": "^1.1.1",
     "@mdx-js/loader": "^1.5.5",
+    "@salesforce-ux/design-system": "^3.0.0-alpha.11",
     "@salesforce-ux/design-system-primitive-tokens": "0.0.8",
+    "@salesforce/i18n": "0.0.12",
     "@storybook/addon-docs": "^5.3.12",
     "@storybook/html": "^5.3.12",
     "@storybook/source-loader": "^5.3.12",
     "babel-loader": "^8.0.6",
+    "css-loader": "^3.4.2",
     "gulp": "^4.0.2",
     "gulp-header-comment": "^0.6.1",
     "gulp-sass": "^4.0.2",
-    "lwc-webpack-plugin": "^0.4.0"
+    "lwc-webpack-plugin": "^0.4.0",
+    "style-loader": "^1.1.3"
+  },
+  "localDependencies": {
+    "lwc-webpack-plugin": "../lwc-webpack-plugin"
   }
 }

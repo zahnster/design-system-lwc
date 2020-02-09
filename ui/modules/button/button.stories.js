@@ -2,6 +2,8 @@ import buildAndRegisterCustomElement from '../../../.storybook/utils/build-custo
 import Button from 'c/button'
 import docs from './button.mdx'
 
+import '../../shared/missing-common.css'
+
 buildAndRegisterCustomElement('c-button', Button)
 
 export default {
@@ -9,5 +11,7 @@ export default {
   parameters: docs.parameters
 }
 
-export const withText = () =>
-  '<c-button label="wow this is a real lwc component"></c-button>'
+export const Base = () => '<c-button label="Base Button"></c-button>'
+
+export const Brand = () =>
+  '<c-button variant="brand" label="Brand Button"></c-button>'

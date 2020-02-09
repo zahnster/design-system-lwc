@@ -12,7 +12,8 @@ module.exports = {
         namespace: {
           // LWC Namespace with path
           c: path.resolve('./ui/modules')
-        }
+        },
+        modules: ['@salesforce-ux/design-system']
       })
     )
 
@@ -38,6 +39,11 @@ module.exports = {
             }
           }
         ]
+      },
+      {
+        test: /\.css$/,
+        include: [/ui\/shared\//],
+        use: ['style-loader', 'css-loader']
       },
       {
         test: /\.(svg|ico|jpg|jpeg|png|gif|eot|otf|webp|ttf|woff|woff2|cur|ani)(\?.*)?$/,
