@@ -1,0 +1,37 @@
+<template>
+  <div if:true={base}>
+    <span class="lwc-badge">
+      <span class="lwc-badge__content">{label}</span>
+    </span>
+  </div>
+
+  <div if:true={icon}>
+    <span class="lwc-badge">
+      <span class="lwc-badge__content">{label}</span>
+    </span>
+  </div>
+
+  <div if:true={inverse}>
+    <span class="lwc-badge lwc-badge_inverse">
+      <span class="lwc-badge__content">{label}</span>
+    </span>
+  </div>
+
+  <div if:true={positive}>
+    <span class="lwc-badge lwc-badge_positive">
+      <span class="lwc-badge__content">{label}</span>
+    </span>
+  </div>
+
+  <div if:true={negative}>
+    <span class="lwc-badge lwc-badge_negative">
+      <span class="lwc-badge__content">{label}</span>
+    </span>
+  </div>
+
+  <div if:true={warning}>
+    <span class="lwc-badge lwc-badge_warning">
+      <span class="lwc-badge__content">{label}</span>
+    </span>
+  </div>
+</template>
