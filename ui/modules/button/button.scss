@@ -1,8 +1,2 @@
-@import '../../../node_modules/@salesforce-ux/design-system-primitive-tokens/dist/base.default.scss';
-
-.lwc-button {
-  -webkit-appearance: none;
-  background: $color-brand;
-  color: white;
-  border: 0;
-}
+@import '../../../node_modules/@salesforce-ux/design-system/scss/shared/common/index';
+@import '../../../node_modules/@salesforce-ux/design-system/scss/modules/button/base/index';
