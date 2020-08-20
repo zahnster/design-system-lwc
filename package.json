@@ -4,7 +4,7 @@
   "description": "Currently a spike on developing authentic SLDS LWC components in Storybook",
   "main": "index.js",
   "scripts": {
-    "prestart": "npm run build",
+    "predev": "npm run build",
     "dev": "npm run watch & npm run storybook",
     "build": "gulp -- build",
     "watch": "gulp -- watch",
