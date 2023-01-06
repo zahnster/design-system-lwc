@@ -19,7 +19,7 @@
   "license": "ISC",
   "devDependencies": {
     "@babel/plugin-transform-react-jsx": "^7.10.4",
-    "@lwc/compiler": "^1.7.12",
+    "@lwc/compiler": "^1.18.0",
     "@lwc/engine": "^1.7.12",
     "@mdx-js/loader": "^1.6.16",
     "@salesforce-ux/design-system-primitive-tokens": "0.0.8",
@@ -32,7 +32,7 @@
     "gulp-header-comment": "^0.8.0",
     "gulp-sass": "^4.1.0",
     "lightning-base-components": "^1.9.0-alpha",
-    "lwc-webpack-plugin": "^0.4.0",
+    "lwc-webpack-plugin": "^3.0.2",
     "sass": "^1.26.10"
   }
 }
